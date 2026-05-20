@@ -1,0 +1,22 @@
+{
+  "name": "anomaly-detection-backend",
+  "version": "1.0.0",
+  "description": "Real-time log monitoring and anomaly detection system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["anomaly", "detection", "realtime", "websocket", "logs"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.8.1"
+  }
+}
