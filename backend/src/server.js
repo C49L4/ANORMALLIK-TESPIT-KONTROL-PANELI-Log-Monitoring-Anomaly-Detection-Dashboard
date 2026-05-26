@@ -63,6 +63,8 @@ server.listen(config.PORT, () => {
     console.log(`   GET  /api/health`);
     console.log(`   POST /api/auth/login`);
     console.log(`   GET  /api/logs`);
+    console.log(`   GET  /api/logs/recent`);
+    console.log(`   GET  /api/logs/aggregate`);
     console.log(`   GET  /api/logs/stats`);
     console.log(`   POST /api/logs`);
     console.log(`   GET  /api/anomalies`);
